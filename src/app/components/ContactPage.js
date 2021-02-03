@@ -1,18 +1,10 @@
 import React from 'react';
-
 import './main.css';
-
 import ContactForm from './contactForm.js'
-// import Contact from './Contact.js'
 
 function ContactPage() {
 
-
-
-
-
     return (
-
         <>
             <div className='main' >
                 <div className='about'>
@@ -37,7 +29,7 @@ function ContactPage() {
                             </div>
                     </div> */}
                 </div>
-                {/* <ContactForm /> */}
+                <ContactForm />
             </div>
            
         </>
