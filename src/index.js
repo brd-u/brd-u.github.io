@@ -38,6 +38,7 @@ const theme = createMuiTheme({
             backgroundColor: 'secondary',
             fontSize: 16,
             width: '450px',
+            maxWidth: '80vw'
         },
     }
 } 
@@ -51,7 +52,7 @@ ReactDOM.render(
     <ThemeProvider theme={theme}>
     <CssBaseline />
     <App />
-  </ThemeProvider>,
+  </ThemeProvider>
   </Router>,
   document.getElementById('root')
 );

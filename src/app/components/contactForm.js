@@ -16,7 +16,8 @@ import ButtonGroup from '@material-ui/core/ButtonGroup';
 const useStyles = makeStyles((theme) => ({
     root: {
 
-        padding: '0.2rem 1rem'
+        padding: '0.2rem 1rem',
+        
     },
     textField: {
         border: 2,
@@ -28,10 +29,13 @@ const useStyles = makeStyles((theme) => ({
             '-webkit-text-fill-color': 'white',
             '-webkit-box-shadow': '0 0 0px 1000px #434343 inset',
         },
+        // maxWidth: 400,
+     
     },
     button: {
         padding: '15px',
     },
+
 }));
 
 
@@ -104,10 +108,10 @@ export default function ContactForm() {
                     name="name"
 
 
-                    // value={name}
-                    // onChange={event => this.setState({ text: event.target.value })}
-                    // error={name === ""}
-                    // helperText={name === "" ? 'Empty!' : ' '}
+                // value={name}
+                // onChange={event => this.setState({ text: event.target.value })}
+                // error={name === ""}
+                // helperText={name === "" ? 'Empty!' : ' '}
                 // value={name}
                 // onChange={e => setEmail(e.target.value)}
                 />
