@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "//brd-u.github.io/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "//brd-u.github.io/static/js/main.b995c0a8.chunk.js",
+    "main.js.map": "//brd-u.github.io/static/js/main.b995c0a8.chunk.js.map",
+    "runtime-main.js": "//brd-u.github.io/static/js/runtime-main.44bc96a1.js",
+    "runtime-main.js.map": "//brd-u.github.io/static/js/runtime-main.44bc96a1.js.map",
+    "static/js/2.ac8738b0.chunk.js": "//brd-u.github.io/static/js/2.ac8738b0.chunk.js",
+    "static/js/2.ac8738b0.chunk.js.map": "//brd-u.github.io/static/js/2.ac8738b0.chunk.js.map",
+    "static/js/3.b2175a04.chunk.js": "//brd-u.github.io/static/js/3.b2175a04.chunk.js",
+    "static/js/3.b2175a04.chunk.js.map": "//brd-u.github.io/static/js/3.b2175a04.chunk.js.map",
+    "index.html": "//brd-u.github.io/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "//brd-u.github.io/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.ac8738b0.chunk.js.LICENSE.txt": "//brd-u.github.io/static/js/2.ac8738b0.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "//brd-u.github.io/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.44bc96a1.js",
+    "static/js/2.ac8738b0.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.b995c0a8.chunk.js"
+  ]
+}
