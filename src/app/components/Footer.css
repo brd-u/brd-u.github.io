@@ -1,0 +1,31 @@
+#main-footer {
+  text-align: left;
+  padding: 1rem 0 0 2rem;
+  background: #2b2b2b;
+  color: #fff;
+  height: 80px;
+  bottom: 0%;
+  line-height: 1.7;
+  font-size: 12px;
+}
+
+.nav-footer-link {
+  display: inline-block;
+  position: relative;
+  font-weight: 300;
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-footer-link.active {
+  color: var(--color-primary);
+}
+
+.nav-footer-link:hover {
+  color: var(--color-primary);
+  transition: all 0.3s;
+}
+
+.nav-footer-link.active:hover {
+  transition: none;
+}
