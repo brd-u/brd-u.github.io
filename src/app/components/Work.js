@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import './main.css'
 import Tile from './Tile.js'
 // import BarChart from './BarChart.js'
+import focusTimerImg from '../assets/focus.png'
 import Modal from './modals/testResultModal.js'
 import { NavLink } from 'react-router-dom'
 // import { Link } from 'react-router-dom'
@@ -39,6 +40,12 @@ class Work extends Component {
         }))
     }
 
+
+goToFocusTimerPage=()=>{
+
+    window.location.assign('https://brd-u.github.io/focus-timer/');
+}
+
     render() {
         return (
             <>
@@ -63,7 +70,7 @@ class Work extends Component {
                         <div>
 
                             <Tile onClick={this.openModalHandler.bind(this)} className='tile-1' imgSrc='https://avatars3.githubusercontent.com/u/12559275?s=400&v=4' title='Nigchtwatch.js' header='Tutaj jakieś coś' mainText='Bacon ipsum dolor amet pork belly tri-tip turducken, pancetta bresaola pork chick ipsum dolor amet pork belly tri-tip turducken, pancetta bresaola pork chicken meatloaf. Flank sirloin strip steak prosciutto kevin turduckenen meatloaf. Flank sirloin strip steak prosciutto kevin turducken.' />
-
+                            <Tile onClick={this.goToFocusTimerPage.bind(this)} className='tile-2' imgSrc={focusTimerImg} title='Focus Timer' header='Tutaj jakieś coś' mainText='timerducken, pancetta bresaola pork chick ipsum dolor amet pork belly tri-tip turducken, pancetta bresaola pork chicken mea' />
 
                         </div>
 

@@ -25,17 +25,17 @@
   background-color: #000000;
 }
 .tile-2 {
-  background-color: #ff6201;
+  background-color:#2b2b2b;
 }
 .tile-3 {
   background-color: #ffffff;
 }
 .tile img {
-  height: 70%;
-  width: 70%;
+  height: 66%;
+  width: 66%;
   position: absolute;
-  top: 15%;
-  left: 15%;
+  top: 17%;
+  left: 17%;
   transition: all 0.4s ease-out;
 }
 .tile .text {
@@ -58,9 +58,9 @@
   color: var(--color-primary);
 }
 
-.tile-2 h2{
+/* .tile-2 h2{
   color: var(--color-second);
-}
+} */
 .tile p {
   font-weight: 300;
   margin: 5%;
@@ -76,7 +76,6 @@
   transition: all 0.6s ease-in-out;
 }
 .tile:hover {
-  /*   background-color:#99aeff; */
   box-shadow: 0px 35px 77px -17px rgba(0, 0, 0, 0.64);
   transform: scale(1.05);
 }

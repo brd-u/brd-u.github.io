@@ -49,12 +49,14 @@ const theme = createMuiTheme({
 
 ReactDOM.render(
   <Router>
+    
     <ThemeProvider theme={theme}>
     <CssBaseline />
     <App />
   </ThemeProvider>
   </Router>,
-  document.getElementById('root')
+  document.getElementById('root'),
+  
 );
 
 // If you want to start measuring performance in your app, pass a function
