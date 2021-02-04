@@ -18,6 +18,7 @@ header {
   cursor: pointer;
   transition: all 0.45s ease-out;
   font-size: 3rem;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
 .menu-btn-opn {
@@ -29,6 +30,7 @@ header {
   cursor: pointer;
   transition: all 0.45s ease-out;
   font-size: 3rem;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
 /* .btn-line {

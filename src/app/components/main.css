@@ -2,9 +2,18 @@
   color: #f0f0f0;
 }
 
+input,
+textarea,
+button,
+select,
+a {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
 :root {
   --color-second: #434343;
   --color-primary: #d2a663;
+  
 }
 
 .text-secondary {
