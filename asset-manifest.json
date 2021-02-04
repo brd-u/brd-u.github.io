@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "//brd-u.github.io/static/css/main.136e385a.chunk.css",
+    "main.css": "//brd-u.github.io/static/css/main.9abe7b52.chunk.css",
     "main.js": "//brd-u.github.io/static/js/main.74d78bd6.chunk.js",
     "main.js.map": "//brd-u.github.io/static/js/main.74d78bd6.chunk.js.map",
     "runtime-main.js": "//brd-u.github.io/static/js/runtime-main.5a0822f5.js",
@@ -10,7 +10,7 @@
     "static/js/3.a482ccb9.chunk.js": "//brd-u.github.io/static/js/3.a482ccb9.chunk.js",
     "static/js/3.a482ccb9.chunk.js.map": "//brd-u.github.io/static/js/3.a482ccb9.chunk.js.map",
     "index.html": "//brd-u.github.io/index.html",
-    "static/css/main.136e385a.chunk.css.map": "//brd-u.github.io/static/css/main.136e385a.chunk.css.map",
+    "static/css/main.9abe7b52.chunk.css.map": "//brd-u.github.io/static/css/main.9abe7b52.chunk.css.map",
     "static/js/2.a0a8019d.chunk.js.LICENSE.txt": "//brd-u.github.io/static/js/2.a0a8019d.chunk.js.LICENSE.txt",
     "static/media/focus.fb4f8628.png": "//brd-u.github.io/static/media/focus.fb4f8628.png",
     "static/media/Navbar.css": "//brd-u.github.io/static/media/portfolioFace.ba7bb0e4.jpg"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.5a0822f5.js",
     "static/js/2.a0a8019d.chunk.js",
-    "static/css/main.136e385a.chunk.css",
+    "static/css/main.9abe7b52.chunk.css",
     "static/js/main.74d78bd6.chunk.js"
   ]
 }
