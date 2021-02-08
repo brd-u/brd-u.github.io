@@ -1,5 +1,5 @@
 import React from 'react'
-import './main.css'
+import '../css/main.css'
 import { FaGithub, FaLinkedin} from 'react-icons/fa'
 import {AiFillBehanceCircle} from 'react-icons/ai'
 

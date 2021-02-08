@@ -1,4 +1,4 @@
-import './Tile.css'
+import '../css/Tile.css'
 
 
 const Tile = (props) => {

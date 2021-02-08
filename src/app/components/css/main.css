@@ -1,5 +1,10 @@
 * {
   color: #f0f0f0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 10;
+  font-family: "Montserrat", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5;
 }
 
 input,
@@ -7,13 +12,12 @@ textarea,
 button,
 select,
 a {
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 :root {
   --color-second: #434343;
   --color-primary: #d2a663;
-  
 }
 
 .text-secondary {
@@ -82,7 +86,7 @@ a {
 
 .bio-image {
   grid-area: bioimage;
-  background-image: url("../assets/portfolioFace.jpg");
+  background-image: url("../../assets/portfolioFace.jpg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: top center;
@@ -228,8 +232,6 @@ a {
   .main .sm-heading {
     padding: 0.1;
   }
-
-
 }
 
 @media screen and (max-width: 768px) {
@@ -238,7 +240,6 @@ a {
     align-items: center;
     text-align: center;
   }
-
 }
 
 @media screen and (max-width: 1170px) {
@@ -266,7 +267,6 @@ a {
   .job {
     height: min-content;
     margin: 3vh 1vh 0 1vh;
-
   }
   .job-text-container > p {
     font-size: 0.8rem;

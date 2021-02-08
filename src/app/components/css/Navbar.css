@@ -98,7 +98,7 @@ header {
 .portrait {
   width: 250px;
   height: 250px;
-  background-image: url('../assets/portfolioFace.jpg');
+  background-image: url('../../assets/portfolioFace.jpg');
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: top center;

@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
-import './main.css'
+import '../css/main.css'
 // import DoughnutChart from './DoughnutChart.js'
 import { SiJira, SiJavascript, SiHtml5, SiCss3, SiBitbucket, SiMicrosoftoffice, SiNodeDotJs, SiVisualstudiocode, SiAutodesk, SiInkscape, SiSlack } from 'react-icons/si'
 
-import { Icon, InlineIcon } from '@iconify/react';
+import { Icon} from '@iconify/react';
 import nightwatchIcon from '@iconify-icons/file-icons/nightwatch';
 
 

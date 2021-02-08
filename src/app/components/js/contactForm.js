@@ -5,7 +5,7 @@ import TextField from '@material-ui/core/TextField';
 import Grid from '@material-ui/core/Grid';
 import MailOutlineIcon from '@material-ui/icons/MailOutline';
 import PermIdentityIcon from '@material-ui/icons/PermIdentity';
-import Container from '@material-ui/core/Container';
+// import Container from '@material-ui/core/Container';
 import Button from '@material-ui/core/Button';
 import SendIcon from '@material-ui/icons/Send';
 import DeleteIcon from '@material-ui/icons/Delete';
@@ -43,9 +43,9 @@ export default function ContactForm() {
 
 
     const [status, setStatus] = useState("");
-    const [email, setEmail] = useState("");
-    const [name, setName] = useState("");
-    const [message, setMessage] = useState("");
+    // const [email, setEmail] = useState("");
+    // const [name, setName] = useState("");
+    // const [message, setMessage] = useState("");
 
 
 

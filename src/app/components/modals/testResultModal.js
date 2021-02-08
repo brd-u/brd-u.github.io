@@ -1,7 +1,7 @@
 import React from 'react';
 import './testResultModal.css';
-import BarChart from '../BarChart.js'
-// import '../main.css'
+// import BarChart from '../js/BarChart.js'
+// import '../css/main.css'
 
 
 const Modal = ({ show, close }) => {

@@ -1,11 +1,10 @@
 import React, { Component } from 'react'
-import './main.css'
+import '../css/main.css'
 import Tile from './Tile.js'
-// import BarChart from './BarChart.js'
-import focusTimerImg from '../assets/focus.png'
-import rogueGameImg from '../assets/rogue.png'
-import Modal from './modals/testResultModal.js'
-import { NavLink } from 'react-router-dom'
+import focusTimerImg from '../../assets/focus.png'
+import rogueGameImg from '../../assets/rogue.png'
+import Modal from '../modals/testResultModal.js'
+// import { NavLink } from 'react-router-dom'
 // import { Link } from 'react-router-dom'
 // import { FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa'
 
@@ -82,10 +81,6 @@ class Work extends Component {
                         </div>
 
 
-
-
-                        {/* <Tile className='tile-2' imgSrc='https://spolecznosc.ing.pl/-/image/serverpage/image-id/787i2C9FEB8FBC026909/image-size/large/is-moderation-mode/true?v=1.0&px=999' title='ING' header='O projekcie' mainText='Bacon ipsum dolor amet pork belly tri-tip turducken, pancetta bresaola pork chick ipsum dolor amet pork belly tri-tip turducken, pancetta bresaola pork chicken meatloaf. Flank sirloin strip steak prosciutto kevin turduckenen meatloaf. Flank sirloin strip steak prosciutto kevin turducken.' />
-                        <Tile className='tile-3' imgSrc='https://p2zk82o7hr3yb6ge7gzxx4ki-wpengine.netdna-ssl.com/wp-content/uploads/Azure-DevOps-3.png' title='ING' header='O projekcie' mainText='Bacon ipsum dolor amet pork belly tri-tip turducken, pancetta bresaola pork chick ipsum dolor amet pork belly tri-tip turducken, pancetta bresaola pork chicken meatloaf. Flank sirloin strip steak prosciutto kevin turduckenen meatloaf. Flank sirloin strip steak prosciutto kevin turducken.' /> */}
 
                         {/* <div className="chart-container">
 
