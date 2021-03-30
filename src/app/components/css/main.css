@@ -29,6 +29,9 @@ h2 {
   margin: 3vh 0 0 0;
   font-weight: 400;
 }
+h4{
+  font-weight: 500;
+}
 
 h1.lg-heading {
   font-size: 4rem;
