@@ -102,7 +102,8 @@ export default function ContactForm() {
                     // helperText='Must be filled out'
                     className={classes.textField}
                     InputProps={{
-                        startAdornment: <InputAdornment position="start"><PermIdentityIcon /></InputAdornment>, WebkitBoxShadow: "0 0 0 1000px red inset"
+                        startAdornment: <InputAdornment position="start"><PermIdentityIcon /></InputAdornment>,
+                        //  WebkitBoxShadow: "0 0 0 1000px red inset"
                     }}
                     type="text"
                     name="name"

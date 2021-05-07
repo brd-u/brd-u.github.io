@@ -4,7 +4,7 @@ import '../css/main.css'
 import { SiJira, SiJavascript, SiHtml5, SiCss3, SiBitbucket, SiMicrosoftoffice, SiNodeDotJs, SiVisualstudiocode, SiAutodesk, SiInkscape, SiSlack, SiInvision } from 'react-icons/si'
 
 // npm install --save-dev @iconify/react @iconify-icons/simple-icons
-import { Icon, InlineIcon } from '@iconify/react';
+import { Icon } from '@iconify/react';
 import cypressIcon from '@iconify-icons/simple-icons/cypress';
 
 import nightwatchIcon from '@iconify-icons/file-icons/nightwatch';
