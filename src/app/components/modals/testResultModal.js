@@ -7,27 +7,33 @@ import './testResultModal.css';
 const Modal = ({ show, close }) => {
 
 
+  function iframe() {
+    return {__html: '<iframe src="./finalReport.html" width="100%" height="100%"></iframe>'};
+  }
+  
+
+
+
   return (
 
 
     <div className="modal-container" 
       style={{
         visibility: show ? 'visible' : 'hidden'
-      }}>
+      }}
+      >
       <div className="modal-wrapper"
       // style={{
       //   visibility: show ? 'visible' : 'hidden'
       // }}
       >
         <div className="modal-header">
-          <p>Welcome To Our Site</p>
+          <p>CYPRESS REPORT</p>
           <span onClick={close} className="close-modal-btn">x</span>
         </div>
         <div className="modal-content">
-          <div className="modal-body">
-            <div className="chart-container">
-              {/* <BarChart /> */}
-            </div>
+          <div className="modal-body" dangerouslySetInnerHTML={iframe()}>
+            {/* <div className="chart-container" dangerouslySetInnerHTML={iframe()}/> */}
           </div>
           <div className="modal-footer">
             <button onClick={close} className="btn-cancel">Close</button>
