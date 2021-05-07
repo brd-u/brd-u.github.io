@@ -5,6 +5,7 @@
   z-index: 1;
   align-items: center;
 } */
+
 .tile {
   width: 280px;
   height: 280px;
@@ -12,7 +13,6 @@
   display: inline-block;
   background-size: cover;
   position: relative;
-  cursor: pointer;
   transition: all 0.4s ease-out;
   box-shadow: 0px 35px 77px -17px rgba(0, 0, 0, 0.44);
   overflow: hidden;
@@ -22,7 +22,7 @@
 }
 
 .tile-1 {
-  background-color: #000000;
+  background-color: #5c5c5e;
 }
 .tile-2 {
   background-color:#2b2b2b;
@@ -37,24 +37,30 @@
   top: 23%;
   left: 23%;
   transition: all 0.4s ease-out;
+  opacity: 0.15;
 }
 .tile .text {
   position: absolute;
   height: 50px;
+  width: 100%;
+  text-align: center;
+  transition: all 0.6s ease-in-out;
 }
 .tile h1 {
-  font-weight: 300;
+  font-weight: 400;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
   font-size: 30px;
   text-align: center;
   margin-top: 2vh;
 }
 .tile h2 {
-  font-weight: 300;
-  font-size: 20px;
+  font-weight: 400;
+  font-size: 14px;
   margin: 2% 0 0 5%;
   font-style: italic;
-  transform: translateX(200px);
+  /* transform: translateX(200px); */
+  transition: all 0.4s ease-out;
+  text-align: left;
   color: var(--color-primary);
 }
 
@@ -62,18 +68,24 @@
   color: var(--color-second);
 } */
 .tile p {
-  font-weight: 300;
+  font-weight: 400;
   margin: 5%;
   line-height: 25px;
   /*   opacity:0; */
-  text-align: justify;
-  transform: translateX(-200px);
+  text-align: left;
+  /* transform: translateX(-200px); */
+  transition: all 0.4s ease-out;
   transition-delay: 0.2s;
   font-size: 15px;
 }
-.animate-text {
+/* .animate-text {
   opacity: 0;
   transition: all 0.6s ease-in-out;
+} */
+.tile .tag-paragraf{
+  font-style: italic;
+  font-size: 10px;
+  line-height: 20px;
 }
 .tile:hover {
   box-shadow: 0px 35px 77px -17px rgba(0, 0, 0, 0.64);
@@ -82,16 +94,43 @@
 .tile:hover img {
   opacity: 0.1;
 }
-.tile:hover .animate-text {
-  transform: translateX(0);
+.tile:hover .text {
+  opacity: 0.1;
+}
+.tile:hover  .animate-info-icons {
   opacity: 1;
 }
 
 .tile:hover span {
   opacity: 1;
-  transform: translateY(0px);
 }
 
+.animate-info-icons {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: inline-grid;
+  grid-template-columns: 1fr  1fr;
+  opacity: 0;
+  transition: all 0.6s ease-in-out;
+  text-align: center;
+}
+.info-icon {
+  /* fill: rgba(209, 165, 98, 0.85); */
+  fill: rgba(255, 255, 255, 0.85); 
+  text-align: center;
+  font-size: 55px;
+  margin: 15px;
+  place-self: center;
+}
+
+.tile a:hover {
+  cursor:unset;
+ }
+.info-icon:hover {
+  fill: rgba(209, 165, 98, 0.85);
+  cursor:pointer;
+}
 
 @media (max-width: 1170px) {
   .wrap {
