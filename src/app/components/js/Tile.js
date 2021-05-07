@@ -35,7 +35,10 @@ const Tile = (props) => {
                     <a href='https://github.com/brd-u/cypress' className='social-icon-link' target='_blank' rel="noopener noreferrer">
                         <SiGithub className='info-icon' />
                     </a>
-                        <HiDocumentReport onClick={setModalIsOpenToTrue} className='info-icon' />
+                    <a className='social-icon-link' >
+                    <HiDocumentReport onClick={setModalIsOpenToTrue} className='info-icon' />
+                    </a>
+                        
                 </div>
 
                 {/* <button onClick={setModalIsOpenToFalse}>x</button> */}
