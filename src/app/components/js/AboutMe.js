@@ -46,62 +46,42 @@ class AboutMe extends Component {
 
                                 Currently I work mostly with Javascript technologies like ReactJS and NodeJS. I also have hands on experience working with cloud infrastructures like AWS/GCP and have deployed applications keeping scalability in mind. Docker, Kubernetes, Jenkins, SonarQube are some of the cool tools I use for CI/ CD. I'm always a learner and a self taught programmer. */}
                             </div>
-                            <div className='job job-1'>
-                                <div className='job-text-container'>
-                                    <h3>21 CN</h3>
-                                    <h4>(testerzy.pl)</h4>
-                                    <h5>Software Tester</h5>
-                                    <h6>October 2018 - October 2019</h6>
-                                    <p><span className='text-secondary'>•</span> Building a test framework, test automation - a project carried out for ING Usługi dla Biznesu S.A.</p>
-                                    <p><span className='text-secondary'>•</span> Performing manual tests</p>
-                                    <p><span className='text-secondary'>•</span> Developing automated scripts either of the following: from scratch or basing on manual test cases</p>
-                                    <p><span className='text-secondary'>• </span> Creating test cases and test plans, reporting bugs</p>
 
-                                </div>
-                                <div className='animate-icons'>
-                                    <SiJira className='job-icon' />
-                                    <SiMicrosoftoffice className='job-icon' />
-                                    <SiVisualstudiocode className='job-icon' />
-                                    <Icon icon={nightwatchIcon} className='job-icon' color='rgba(209, 165, 98, 0.85)' />
-                                    <SiSlack className='job-icon' />
-                                    <SiJavascript className='job-icon' />
-                                    <SiHtml5 className='job-icon' />
-                                    <SiCss3 className='job-icon' />
-                                    {/* <SiBitbucket className='job-icon'/> */}
-                                    <SiNodeDotJs className='job-icon' />
-                                </div>
-                            </div>
-                            <div className='job job-2'>
+                            <div className='job job-4'>
                                 <div className='job-text-container'>
-                                    <h3>AMD</h3>
-                                    <h5>Data Analyst</h5>
-                                    <h6>October 2019 - Present</h6>
-                                    <p><span className='text-secondary'>•</span> Implementing VBA scripts for Autodesk inventor</p>
-                                    <p><span className='text-secondary'>•</span> Creating cost estimates, business plans</p>
-                                    <p><span className='text-secondary'>•</span> Analyzing new investments</p>
+                                    <h3>Uniteam</h3>
+                                    <h4>(PASK)</h4>
+                                    <h5>Software Tester</h5>
+                                    <h6>July 2021 - Present</h6>
+                                    <p><span className='text-secondary'>•</span> Performing manual tests</p>
+                                    <p><span className='text-secondary'>• </span> Creating test cases and test plans, reporting bugs</p>
+                                    <p><span className='text-secondary'>• </span> Creating application user manuals</p>
+                                    <p><span className='text-secondary'>• </span> Implementation of automatic e2e tests</p>
+                                    {/* <p><span className='text-secondary'>• </span>  UX design</p> */}
                                 </div>
                                 <div className="chart-container">
                                     {/* <DoughnutChart
-
                                     // data={this.state.data[3].data}
                                     // title={this.state.data[3].title}
                                     // colors={['#a8e0ff', '#8ee3f5', '#70cad1', '#3e517a', '#b08ea2', '#BBB6DF']}
                                     /> */}
                                 </div>
                                 <div className='animate-icons'>
-                                    <SiInkscape className='job-icon' />
-                                    <SiAutodesk className='job-icon' />
+                                    <SiJira className='job-icon' />
                                     <SiMicrosoftoffice className='job-icon' />
+                                    <SiVisualstudiocode className='job-icon' />
+                                    <Icon icon={cypressIcon} className='job-icon' color='rgba(209, 165, 98, 0.85)' />
+                                    <SiInvision className='job-icon' />
+                                    <SiBitbucket className='job-icon' />
                                 </div>
                             </div>
-
 
                             <div className='job job-3'>
                                 <div className='job-text-container'>
                                     <h3>A.S Adrian Stern</h3>
                                     <h4>(eduMENTORS, Cellivia)</h4>
                                     <h5>Software Tester</h5>
-                                    <h6>August 2020 - Present</h6>
+                                    <h6>August 2020 - June 2021</h6>
                                     <p><span className='text-secondary'>•</span> Performing manual tests</p>
                                     <p><span className='text-secondary'>• </span> Creating test cases and test plans, reporting bugs</p>
                                     <p><span className='text-secondary'>• </span> Creating application user manuals</p>
@@ -127,6 +107,62 @@ class AboutMe extends Component {
                                     <SiBitbucket className='job-icon' />
                                 </div>
                             </div>
+
+                           
+                            <div className='job job-2'>
+                                <div className='job-text-container'>
+                                    <h3>AMD</h3>
+                                    <h5>Data Analyst</h5>
+                                    <h6>October 2019 - June 2021</h6>
+                                    <p><span className='text-secondary'>•</span> Implementing VBA scripts for Autodesk inventor</p>
+                                    <p><span className='text-secondary'>•</span> Creating cost estimates, business plans</p>
+                                    <p><span className='text-secondary'>•</span> Analyzing new investments</p>
+                                </div>
+                                <div className="chart-container">
+                                    {/* <DoughnutChart
+
+                                    // data={this.state.data[3].data}
+                                    // title={this.state.data[3].title}
+                                    // colors={['#a8e0ff', '#8ee3f5', '#70cad1', '#3e517a', '#b08ea2', '#BBB6DF']}
+                                    /> */}
+                                </div>
+                                <div className='animate-icons'>
+                                    <SiInkscape className='job-icon' />
+                                    <SiAutodesk className='job-icon' />
+                                    <SiMicrosoftoffice className='job-icon' />
+                                </div>
+                            </div>
+
+
+                            <div className='job job-1'>
+                                <div className='job-text-container'>
+                                    <h3>21 CN</h3>
+                                    <h4>(testerzy.pl)</h4>
+                                    <h5>Software Tester</h5>
+                                    <h6>October 2018 - October 2019</h6>
+                                    <p><span className='text-secondary'>•</span> Building a test framework, test automation - a project carried out for ING Usługi dla Biznesu S.A.</p>
+                                    <p><span className='text-secondary'>•</span> Performing manual tests</p>
+                                    <p><span className='text-secondary'>•</span> Developing automated scripts either of the following: from scratch or basing on manual test cases</p>
+                                    <p><span className='text-secondary'>• </span> Creating test cases and test plans, reporting bugs</p>
+
+                                </div>
+                                <div className='animate-icons'>
+                                    <SiJira className='job-icon' />
+                                    <SiMicrosoftoffice className='job-icon' />
+                                    <SiVisualstudiocode className='job-icon' />
+                                    <Icon icon={nightwatchIcon} className='job-icon' color='rgba(209, 165, 98, 0.85)' />
+                                    <SiSlack className='job-icon' />
+                                    <SiJavascript className='job-icon' />
+                                    <SiHtml5 className='job-icon' />
+                                    <SiCss3 className='job-icon' />
+                                    {/* <SiBitbucket className='job-icon'/> */}
+                                    <SiNodeDotJs className='job-icon' />
+                                </div>
+                            </div>
+
+
+                            
+
                         </div>
                     </div>
 

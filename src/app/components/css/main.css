@@ -82,9 +82,11 @@ a {
 
 .about-info {
   display: grid;
+  row-gap: 3vh;
   grid-template-areas:
     "bioimage bio bio"
-    "job1 job2 job3";
+    "job4 job3 job2"
+    "job1 job job";
   grid-template-columns: repeat(3, 1fr);
 }
 
