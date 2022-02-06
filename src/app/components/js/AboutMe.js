@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import '../css/main.css'
 // import DoughnutChart from './DoughnutChart.js'
-import { SiJira, SiJavascript, SiHtml5, SiCss3, SiBitbucket, SiMicrosoftoffice, SiNodeDotJs, SiVisualstudiocode, SiAutodesk, SiInkscape, SiSlack, SiInvision } from 'react-icons/si'
+import { SiJira, SiJavascript, SiHtml5, SiCss3, SiBitbucket, SiMicrosoftoffice, SiNodeDotJs, SiVisualstudiocode, SiAutodesk, SiInkscape, SiSlack, SiInvision ,SiPostman,SiJenkins} from 'react-icons/si'
 
 // npm install --save-dev @iconify/react @iconify-icons/simple-icons
 import { Icon } from '@iconify/react';
@@ -71,8 +71,10 @@ class AboutMe extends Component {
                                     <SiMicrosoftoffice className='job-icon' />
                                     <SiVisualstudiocode className='job-icon' />
                                     <Icon icon={cypressIcon} className='job-icon' color='rgba(209, 165, 98, 0.85)' />
+                                    <SiPostman className='job-icon' />
                                     <SiInvision className='job-icon' />
                                     <SiBitbucket className='job-icon' />
+                                    <SiJenkins className='job-icon' />
                                 </div>
                             </div>
 
